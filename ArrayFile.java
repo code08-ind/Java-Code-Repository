@@ -14,5 +14,9 @@ public class ArrayFile {
 //        Another way of having the array initialized here and arrays have the fixed length.
         int[] newArr = {1, 2, 3, 4, 5};
 
+//        Here we will be having the multi-dimensional array and wul
+        int[][] matrix = {{1,2,3}, {4,5,6}};
+        System.out.println(Arrays.deepToString(matrix));
+
     }
 }
